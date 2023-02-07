@@ -1,0 +1,10 @@
+version: "3.5"
+services:
+  # useful for testing camera integrations
+  # because it relies on network host
+  test-container:
+    image: ubuntu:latest
+    volumes:
+      - ~/workspaces:/workspaces
+    entrypoint: sleep infinity
+      #ports:
