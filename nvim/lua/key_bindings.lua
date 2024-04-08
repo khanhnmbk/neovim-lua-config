@@ -8,4 +8,6 @@ map("n", "<leader>/", ":noh<CR>", opt_silent)
 map("n", "<C-F>", ":Files<CR>", opt_silent)
 map("n", "<C-G>", ":GFiles<CR>", opt_silent)
 map("n", "<C-B>", ":Buffers<CR>", opt_silent)
-map("v", "<C-Y>", ":OSCYank<CR>", opt_silent)
+map("v", "<C-Y>", ":OSCYankVisual<CR>", opt_silent)
+-- Tree
+map("n", "<C-T>", ":NERDTreeToggle<CR>", opt_silent)

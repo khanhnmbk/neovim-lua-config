@@ -12,4 +12,6 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.pastetoggle = "F2"
+vim.opt.hlsearch = true
 vim.opt.swapfile = false
+require("flutter-tools").setup {} -- use defaults
