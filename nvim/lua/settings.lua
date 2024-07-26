@@ -14,4 +14,10 @@ vim.opt.shiftwidth = 4
 vim.opt.pastetoggle = "F2"
 vim.opt.hlsearch = true
 vim.opt.swapfile = false
+
 require("flutter-tools").setup {} -- use defaults
+require("copilot").setup({})
+require("CopilotChat").setup {
+  debug = true, -- Enable debugging
+  -- See Configuration section for rest
+}
