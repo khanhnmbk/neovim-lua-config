@@ -11,3 +11,9 @@ map("n", "<C-B>", ":Buffers<CR>", opt_silent)
 map("v", "<C-Y>", ":OSCYankVisual<CR>", opt_silent)
 -- Tree
 map("n", "<C-T>", ":NERDTreeToggle<CR>", opt_silent)
+-- Copilot
+map("i", "<C-S-j>", "<Plug>(copilot-next)", {silent = true})
+map("i", "<C-S-k>", "<Plug>(copilot-previous)", {silent = true})
+map("i", "<C-S-w>", "<Plug>(copilot-accept-word)", {silent = true})
+map("i", "<C-S-l>", "<Plug>(copilot-accept-line)", {silent = true})
+
