@@ -16,6 +16,11 @@ vim.opt.hlsearch = true
 vim.opt.swapfile = false
 
 require("flutter-tools").setup {} -- use defaults
+-- Run flutter command in a new tab
+vim.cmd [[
+  command! FlutterRunTab tabnew | execute 'FlutterRun'
+]]
+
 
 require('copilot').setup({
   panel = {
