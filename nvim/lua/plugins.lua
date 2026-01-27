@@ -23,8 +23,8 @@ Plug 'akinsho/flutter-tools.nvim'
 Plug 'mtdl9/vim-log-highlighting'
 
 -- Copilot
-Plug 'zbirenbaum/copilot.lua'
-Plug 'nvim-lua/plenary.nvim'
-Plug ('CopilotC-Nvim/CopilotChat.nvim', { branch = 'canary' })
+--Plug 'zbirenbaum/copilot.lua'
+--Plug 'nvim-lua/plenary.nvim'
+--Plug ('CopilotC-Nvim/CopilotChat.nvim', { branch = 'canary' })
 
 vim.call('plug#end')
