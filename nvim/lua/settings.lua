@@ -1,4 +1,5 @@
 -- Colors and themes
+vim.opt.termguicolors = false  -- Use 256-color mode instead of true color
 vim.opt.background = "dark"
 vim.cmd('colorscheme PaperColor')
 vim.opt.number = true
