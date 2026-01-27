@@ -1,5 +1,7 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export GOPATH=/home/khanhnguyen/workspaces/go/
+export GOBIN=$GOPATH/bin
+export PATH=$HOME/bin:/usr/local/bin:/home/khanhnguyen/.local/bin:/usr/local/go/bin:$GOPATH:$GOBIN:$SNPE_BIN:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
