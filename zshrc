@@ -102,4 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# Enable fzf shell integration (key bindings + completion)
+# Ctrl+R: search history, Ctrl+T: search files, Alt+C: cd into directory
+eval "$(fzf --zsh)"
